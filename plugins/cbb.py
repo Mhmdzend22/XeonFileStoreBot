@@ -10,13 +10,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"ⓑⓞⓞⓜ     !⃝    !⃝",
+            text = f"🇲🇾🇲🇾🇲🇾 𝖕𝖗𝖔𝖏𝖊𝖈𝖙",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton("⚡️ ᴄʟᴏsᴇ", callback_data = "close"),
-                    InlineKeyboardButton('🍁 ᴄʜᴀɴɴᴇʟ ᴠɪᴘ', url='https://t.me/bocil_vip_admin/30')
+                    InlineKeyboardButton("❌ ᴄʟᴏsᴇ", callback_data = "close"),
+                    InlineKeyboardButton('✅ ᴄʜᴀɴɴᴇʟ ᴠɪᴘ', url='https://t.me/rajakonten_testi')
                     ]
                 ]
             )
